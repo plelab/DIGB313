@@ -12,11 +12,11 @@
 
 ### Getting Started
 
-- Access to [Homework Main Site](https://https://plelab.github.io/DIGB313/)
+- Access to [Homework Main Site](https://plelab.github.io/DIGB313/)
 
 ### Homework Page
 
-01. [Homework.01](https://https://plelab.github.io/DIGB313/homework1) 
+01. [Homework.01](https://plelab.github.io/DIGB313/homework1) 
 
 ---
 
