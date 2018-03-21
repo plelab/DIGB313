@@ -8,12 +8,15 @@
 
 ### Dependency
 
-- Oracle JDK
-Install Oracle JDK from [Oracle Official Site](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Does not exist.
 
 ### Getting Started
 
-- Access to [Homework Site](https://plelab.github.io)
+- Access to [Homework Main Site](https://https://plelab.github.io/DIGB313/)
+
+### Homework Page
+
+01. [Homework.01](https://https://plelab.github.io/DIGB313/homework1) 
 
 ---
 
