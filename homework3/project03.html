@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Chapter 4</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="project03.css"/>
+</head>
+<body>
+<form method="GET" action="http://www.randyconnolly.com/tests/process.php">
+    <div class="container">
+        <div id="container-title-box">
+            <p>Photo Details</p>
+        </div>
+
+        <div id="title-box" class="container-element">
+            <p class="element-caption">Title</p>
+            <input type="text" name="title"/>
+        </div>
+
+        <div id="description-box" class="container-element">
+            <p class="element-caption">Description</p>
+            <textarea name="description"></textarea>
+        </div>
+
+        <div id="section1">
+            <div id="address-box">
+                <div class="container-element">
+                    <p class="element-caption">Continent</p>
+                    <select name="continent">
+                        <option value="-1">Choose continent</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Oceania">Oceania</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                    </select>
+                </div>
+                <div class="container-element">
+                    <p class="element-caption">Country</p>
+                    <select name="country">
+                        <option value="-1">Choose country</option>
+                        <option value="Republic of Korea">Republic of Korea</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                </div>
+                <div class="container-element">
+                    <p class="element-caption">City</p>
+                    <input type="text" name="city"/>
+                </div>
+            </div>
+
+            <div id="copyright-container">
+                <div class="copyright-box">
+                    <div class="container-element">
+                        <p class="element-caption">Copyright?</p>
+                        <div>
+                            <input type="radio" name="copyright" value="1"/> All rights reserved
+                        </div>
+                        <div>
+                            <input type="radio" name="copyright" value="2"/> Creative Commons
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-box">
+                    <div class="container-element">
+                        <p class="element-caption">CreativeCommons Types</p>
+                        <div>
+                            <input type="checkbox" name="cc" value="on"/> Attribution
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cc" value="on"/> Noncommercial
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cc" value="on"/> No Derivative Works
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cc" value="on"/> Share Alike
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section2">
+            <div id="accept-box">
+                I accept the software license <input type="checkbox" name="accept"/>
+            </div>
+
+            <div id="photo-box">
+                <div class="container-element">
+                    <p class="element-caption">Rate this photo</p>
+                    <input type="number" name="rate" value="1"/>
+                </div>
+                <div class="container-element">
+                    <p class="element-caption">Color Collection</p>
+                    <input type="color" name="color"/>
+                </div>
+            </div>
+
+            <div id="datetime-box">
+                <div class="container-element">
+                    <p class="element-caption">Date Taken</p>
+                    <input type="date" name="date"/>
+                </div>
+                <div class="container-element">
+                    <p class="element-caption">Time Taken</p>
+                    <input type="time" name="time"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <button type="submit">Submit</button>
+            <button>Clear Form</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

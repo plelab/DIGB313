@@ -1,0 +1,129 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+body {
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    height: 16px;
+    border: 1px dashed black;
+}
+
+select {
+    border: 1px dashed black;
+}
+
+.container-element {
+    margin-bottom: 8px;
+}
+
+.container-element > .element-caption {
+    margin-bottom: 4px;
+}
+
+.container {
+    position: relative;
+    width: 640px;
+    margin: 40px auto 0 auto;
+    padding: 40px;
+    border: 1px dashed black;
+}
+
+#container-title-box {
+    position: absolute;
+    top: -10px;
+    width: 640px;
+    text-align: center;
+    background-color: white;
+}
+
+#title-box > input {
+    height: 16px;
+}
+
+#description-box {
+    margin-bottom: 16px;
+}
+
+#description-box > textarea {
+    height: 100px;
+}
+
+#section1 {
+    margin-bottom: 24px;
+    height: 200px;
+}
+
+#section2 {
+    margin-bottom: 24px;
+}
+
+#address-box {
+    display: inline-block;
+    width: 50%;
+}
+
+#copyright-container {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+
+.copyright-box {
+    border: 1px dashed black;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.copyright-box input {
+    width: inherit;
+}
+
+#accept-box {
+    margin-bottom: 24px;
+}
+
+#accept-box input {
+    width: inherit;
+}
+
+#photo-box {
+    display: inline-block;
+    width: 50%;
+}
+
+#photo-box input {
+    width: 64px;
+    height: 16px;
+}
+
+#datetime-box {
+    display: inline-block;;
+    float: right;
+    width: 40%;
+}
+
+#datetime-box input[name=date] {
+    width: 140px;
+    height: 16px;
+}
+
+#datetime-box input[name=time] {
+    width: 100px;
+    height: 16px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer > button {
+    width: 88px;
+    padding: 8px 0;
+}

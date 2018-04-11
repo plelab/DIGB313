@@ -18,7 +18,8 @@
 
 01.[Homework.01](https://plelab.github.io/DIGB313/homework1)  
 02-1.[Homework.02-1](https://plelab.github.io/DIGB313/homework2/project21.html)  
-02-2.[Homework.02-2](https://plelab.github.io/DIGB313/homework2/project22.html) 
+02-2.[Homework.02-2](https://plelab.github.io/DIGB313/homework2/project22.html)
+03.[Homework.03](https://plelab.github.io/DIGB313/homework3/project03.html) 
 
 ---
 
