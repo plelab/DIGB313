@@ -22,7 +22,8 @@
 03.[Homework.03](https://plelab.github.io/DIGB313/homework3/project03.html)  
 04.[Homework.04](https://plelab.github.io/DIGB313/homework4)  
 05.[Homework.05](https://plelab.github.io/DIGB313/homework5)  
-06.[Homework.06](https://plelab.github.io/DIGB313/homework6)
+06.[Homework.06](https://plelab.github.io/DIGB313/homework6)  
+07.[Homework.07](https://plelab.github.io/DIGB313/homework7)
 
 ---
 
